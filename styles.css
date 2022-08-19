@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    max-height: 100vh;
+    min-height: 50vh;
+}
+header{
+    display: flexbox;
+    text-align: right;
+}
+
+.menu{
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+
+.menu ul{
+    display: inline-block;
+    align-content: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    align-content: right;
+    margin: 1em;
+    
+}
+
+.menu ul li a{
+    display: inline-block;
+    align-content: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu ul li a button{
+    background-color: rgb(66,133,244);
+    border-color:rgb(66,133,244) ;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px; 
+    padding-right:20px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+input{
+    width: 600px;
+    height: 25px;
+    border-radius: 30px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    color: rgb(163, 163, 161);
+}
+
+
+.opciones .elegir a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    background-color:  rgb(226, 223, 223);
+    border-color: rgb(226, 223, 223);
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:20px; 
+    padding-right:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    display: flexbox;
+    
+     
+    background-color: rgb(226, 223, 223);  
+}
+
+footer .id{
+    background-color: rgb(226, 223, 223);
+    padding-top: 20px; 
+    margin-left: 20px;
+}
+
+footer .id li a{ 
+    text-decoration: none;
+    color: rgb(95, 94, 94);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.menufinal{
+    display: inline-block;
+    flex-wrap: nowrap;
+    background-color: rgb(226, 223, 223); 
+    
+    
+}
+.menufinal ul{
+    display: inline-block;
+    background-color: rgb(226, 223, 223); 
+    margin-left: 20px;
+    text-decoration: none;
+    
+
+}
+
+.menufinal ul li{
+
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(95, 94, 94);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+   
+}
+
+.menufinal ul li a{
+    text-decoration: none;
+    color: rgb(95,94,94);
+    margin-right: 30px;
+
+}
+
+.menufinal ul .menudelmenu{ 
+margin-left: 370px;
+}
